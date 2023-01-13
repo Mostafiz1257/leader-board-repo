@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
 
 .top{
-   justify-content: center;
+   align-items: center;
 }
 .top-section{
    
@@ -61,6 +71,7 @@ body{
 /* 
 lates-course-section */
 .lates-couse{
+    padding: 30px;
     width: 870px;
     background-color: #FFFFFF;
     margin-top: 40px;
@@ -74,4 +85,9 @@ lates-course-section */
 .course-pic{
     width: 224px;
     height: 104px;
+    
 }
+
+/*.............. 
+Responsive 
+..............*/
